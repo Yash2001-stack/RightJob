@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "app/api/parse-cv/route.ts": { "maxDuration": 60 },
+    "app/api/build-profile/route.ts": { "maxDuration": 60 },
+    "app/api/generate-companies/route.ts": { "maxDuration": 60 },
+    "app/api/scrape-jobs/route.ts": { "maxDuration": 60 },
+    "app/api/score-jobs/route.ts": { "maxDuration": 60 },
+    "app/api/job-detail/route.ts": { "maxDuration": 60 }
+  }
+}

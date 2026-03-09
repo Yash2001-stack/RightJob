@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/c/Users/yoyoy/AppData/Local/Microsoft/WindowsApps/node.exe --version)",
+      "Bash(/c/Users/yoyoy/AppData/Local/Microsoft/WindowsApps/node --version)",
+      "Bash(/c/Users/yoyoy/AppData/Local/Microsoft/WindowsApps/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe/winget.exe --version)"
+    ]
+  }
+}
