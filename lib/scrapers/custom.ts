@@ -218,6 +218,7 @@ async function scrapeGenericCareerPage(
           postedDate: new Date().toISOString().split('T')[0],
           jdText: bodyText.slice(0, 5000),
           applyUrl: link.href,
+          careersUrl: '',
           source: 'custom',
         });
 

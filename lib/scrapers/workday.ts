@@ -82,6 +82,7 @@ export async function scrapeWorkday(
           postedDate: new Date().toISOString().split('T')[0],
           jdText: jdText.slice(0, 5000),
           applyUrl: job.href,
+          careersUrl: '',
           source: 'workday',
         });
 

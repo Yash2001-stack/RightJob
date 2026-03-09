@@ -76,6 +76,7 @@ export async function scrapeLever(
           postedDate: new Date().toISOString().split('T')[0],
           jdText: jdText.slice(0, 5000),
           applyUrl: link.href,
+          careersUrl: '',
           source: 'lever',
         });
 
